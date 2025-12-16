@@ -170,7 +170,7 @@ func ConvertMermaidToImageURL(markdown string) string {
 				// 使用 Base64URL 编码（用 - 和 _ 替代 + 和 /）
 				// 对 Base64 进行 URL 编码，处理特殊字符
 				urlEncoded := url.QueryEscape(encoded)
-				imageURL := fmt.Sprintf("https://mermaid.ink/img/%s", urlEncoded)
+				fmt.Sprintf("https://mermaid.ink/img/%s", urlEncoded)
 			}
 			i++
 			continue

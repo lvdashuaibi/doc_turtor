@@ -1,0 +1,76 @@
+# 环境变量文件
+.env
+.env.local
+.env.*.local
+# IDE 配置
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Go 相关
+*.o
+*.a
+*.so
+.DS_Store
+dist/
+bin/
+vendor/
+
+# 编译输出
+eino_test
+eino_demo
+
+# 日志文件
+*.log
+logs/
+
+# 临时文件
+tmp/
+temp/
+*.tmp
+
+# 敏感配置文件
+config/.env
+config/secrets.yaml
+config/credentials.json
+
+# 测试生成的文件
+改写文档_*.md
+test_output/
+
+# Milvus 数据
+milvus_data/
+etcd_data/
+
+# 依赖缓存
+go.sum.bak
+
+# 本地开发文件
+local_config.yaml
+debug.log
+
+# 飞书相关敏感信息
+feishu_token.txt
+feishu_credentials.json
+
+# OpenAI 相关敏感信息
+openai_key.txt
+api_keys.json
+
+# 数据库备份
+*.sql
+*.db
+*.sqlite
+
+# 构建产物
+*.exe
+*.dll
+*.dylib
+
+# 其他
+.venv/
+venv/
+node_modules/
